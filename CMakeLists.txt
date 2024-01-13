@@ -4,7 +4,7 @@ project(Hometask2 VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-include(IpAdress)
+include_directories(IpAdress)
 
 add_executable(Hometask2 main.cpp)
 
